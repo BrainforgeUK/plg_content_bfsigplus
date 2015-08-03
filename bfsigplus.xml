@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension group="content" method="upgrade" type="plugin" version="1.6">
+	<name>Content - Image gallery - derived from sigplus</name>
+  <creationDate>April 2015</creationDate>
+  <version>0.0.3</version>
+  <author>Jonathan Brain</author>
+  <authorEmail>brainforge@btinternet.com</authorEmail>
+  <authorUrl>http://www.brainforge.co.uk</authorUrl>
+  <copyright>Copyright 2015 Jonathan Brain - brainforge. All rights reserved.</copyright>
+  <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>Derivative of Sigplus plugin by Brainforge. The sigplus plugin must also be installed, configured and enabled.</description>
+	<files>
+		<filename plugin="bfsigplus">bfsigplus.php</filename>
+	</files>
+</extension>
