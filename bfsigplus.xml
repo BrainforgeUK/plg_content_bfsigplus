@@ -12,4 +12,8 @@
 	<files>
 		<filename plugin="bfsigplus">bfsigplus.php</filename>
 	</files>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Image gallery (derived from sigplus) by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_content_bfsigplus.xml</server>
+	</updateservers>
 </extension>
