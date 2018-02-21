@@ -2,7 +2,7 @@
 <extension group="content" method="upgrade" type="plugin" version="1.6">
 	<name>Content - Image gallery - derived from sigplus</name>
   <creationDate>April 2015</creationDate>
-  <version>0.0.3</version>
+  <version>3.0.0</version>
   <author>Jonathan Brain</author>
   <authorEmail>brainforge@btinternet.com</authorEmail>
   <authorUrl>http://www.brainforge.co.uk</authorUrl>
@@ -14,6 +14,8 @@
 	</files>
 
 	<updateservers>
-		<server type="extension" priority="1" name="Image gallery (derived from sigplus) by BrainforgeUK">https://brainforge.co.uk/media/com_bfupdater/plg_content_bfsigplus.xml</server>
+		<server type="extension" priority="1" name="Image gallery (derived from sigplus) by BrainforgeUK">
+			https://brainforge.co.uk/component/bfupdater?element=plg_content_bfsigplus.xml
+		</server>
 	</updateservers>
 </extension>
